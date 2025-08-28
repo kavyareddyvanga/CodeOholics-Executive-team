@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Codeoholics - Where Code Comes Alive</title>
+  
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="animated-bg">
+    <div class="code-rain">
+      <div class="code-line" style="--delay: 0s; --duration: 8s;">console.log('Hello World');</div>
+      <div class="code-line" style="--delay: 1s; --duration: 20s;">function animate() { return magic; }</div>
+      <div class="code-line" style="--delay: 2s; --duration: 12s;">const codeoholics = 'awesome';</div>
+      <div class="code-line" style="--delay: 3s; --duration: 9s;">while(coding) { learn(); }</div>
+      <div class="code-line" style="--delay: 4s; --duration: 11s;">import { passion } from 'coding';</div>
+    </div>
+    <div class="floating-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+      <div class="shape shape-4"></div>
+      <div class="shape shape-5"></div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top glass-nav">
+    <a class="navbar-brand glitch-text" href="#" data-text="Codeoholics">
+      <span class="brand-icon">&lt;/&gt;</span>
+      Codeoholics
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link hover-glow" href="#hero">Home</a></li>
+        <li class="nav-item"><a class="nav-link hover-glow" href="#events">Events</a></li>
+        <li class="nav-item"><a class="nav-link hover-glow" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero" class="hero-section">
+    <div class="hero-content">
+      <div class="hero-text fade-in-up">
+        <h1 class="hero-title">
+          <span class="typing-text">Welcome to Codeoholics</span>
+          <span class="cursor">|</span>
+        </h1>
+        <p class="hero-subtitle slide-in-left">Where coders unite, build and innovate</p>
+        <div class="hero-buttons slide-in-right">
+          <button class="btn-neon btn-primary-neon">Join Community</button>
+          <button class="btn-neon btn-secondary-neon">Explore Events</button>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="code-editor">
+          <div class="editor-header">
+            <div class="editor-dots">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <span class="editor-title">main.js</span>
+          </div>
+          <div class="editor-content">
+            <div class="code-line-editor">
+              <span class="line-number">1</span>
+              <span class="code-text typing-code">const passion = 'coding';</span>
+            </div>
+            <div class="code-line-editor">
+              <span class="line-number">2</span>
+              <span class="code-text typing-code">const community = 'codeoholics';</span>
+            </div>
+            <div class="code-line-editor">
+              <span class="line-number">3</span>
+              <span class="code-text typing-code">function innovate() {</span>
+            </div>
+            <div class="code-line-editor">
+              <span class="line-number">4</span>
+              <span class="code-text typing-code">&nbsp;&nbsp;return passion + community;</span>
+            </div>
+            <div class="code-line-editor">
+              <span class="line-number">5</span>
+              <span class="code-text typing-code">}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-arrow"></div>
+    </div>
+  </header>
+
+  <!-- Events Section -->
+  <section id="events" class="py-5 events-section">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title reveal-text">Events @ Codeoholics</h2>
+        <div class="section-underline"></div>
+        <p class="section-subtitle">Join our exciting coding events and level up your skills</p>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="event-card card-hover-effect" data-tilt>
+            <div class="card-glow"></div>
+            <img src="/placeholder.svg?height=200&width=400" class="card-img-top" alt="Hackathon 2025">
+            <div class="card-body">
+              <div class="event-date">
+                <span class="date-day">24</span>
+                <span class="date-month">MAR</span>
+              </div>
+              <h5 class="card-title">Hackathon 2025</h5>
+              <p class="card-text">Join the ultimate 24-hour coding challenge and build something amazing.</p>
+              <a href="#" class="btn-neon btn-event">
+                <span>Register Now</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="event-card card-hover-effect" data-tilt>
+            <div class="card-glow"></div>
+            <img src="/placeholder.svg?height=200&width=400" class="card-img-top" alt="DSA BootCamp">
+            <div class="card-body">
+              <div class="event-date">
+                <span class="date-day">15</span>
+                <span class="date-month">APR</span>
+              </div>
+              <h5 class="card-title">DSA BootCamp</h5>
+              <p class="card-text">Hands-on workshop on DSA by industry experts and tech leaders.</p>
+              <a href="#" class="btn-neon btn-event">
+                <span>Learn More</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="event-card card-hover-effect" data-tilt>
+            <div class="card-glow"></div>
+            <img src="/placeholder.svg?height=200&width=400" class="card-img-top" alt="Codeoholics Summit">
+            <div class="card-body">
+              <div class="event-date">
+                <span class="date-day">08</span>
+                <span class="date-month">MAY</span>
+              </div>
+              <h5 class="card-title">Codeoholics Summit</h5>
+              <p class="card-text">A meet-up for developers, startups & innovators to network and share.</p>
+              <a href="#" class="btn-neon btn-event">
+                <span>Join Us</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats-section py-5">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-3 mb-4">
+          <div class="stat-item">
+            <div class="stat-number" data-count="1500">0</div>
+            <div class="stat-label">Active Members</div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="stat-item">
+            <div class="stat-number" data-count="50">0</div>
+            <div class="stat-label">Events Hosted</div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="stat-item">
+            <div class="stat-number" data-count="200">0</div>
+            <div class="stat-label">Projects Built</div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="stat-item">
+            <div class="stat-number" data-count="25">0</div>
+            <div class="stat-label">Tech Partners</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <div class="team-cards">
+    <div class="container p-5">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="team-heading mt-3 text-center">Meet the team</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3 mt-4">
+          <div class="team-card">
+            <article>
+              <h2>FChetan</h2>
+              <div class="title">President</div>
+              
+              <div class="desc">Our communication extraordinaire who can craft words that will make Shakespeare jealous.</div>
+            </article>
+            <div class="actions">
+              <a href="https://www.linkedin.com/in/farhan-ahmed-63324b242" class="btn">
+                <span>connect</span>
+                <img class="icon" src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG8.png" alt="LinkedIn">
+              </a>
+              <a href="https://www.instagram.com/farhanahmed1729_1?igsh=N2d5ejQ0ZDhsdm5t" class="btn">
+                <span>follow</span>
+                <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="Instagram">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mt-4">
+          <div class="team-card">
+            <article>
+              <h2>Leo Nikhil</h2>
+              <div class="title">Vice President</div>
+              
+              <div class="desc">Our official GIF master who can find the perfect reaction for any situation, guaranteed to make you LOL!</div>
+            </article>
+            <div class="actions">
+              <a href="https://www.linkedin.com/in/leo-nikhil-mothukuri-5169b021a" class="btn">
+                <span>connect</span>
+                <img class="icon" src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG8.png" alt="LinkedIn">
+              </a>
+              <a href="https://www.instagram.com/leonik_2367?igsh=MW41cW8xc2Q2bTIzag==" class="btn">
+                <span>follow</span>
+                <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="Instagram">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mt-4">
+          <div class="team-card">
+            <article>
+              <h2>Moid Ahmed</h2>
+              <div class="title">Events Lead</div>
+              
+              <div class="desc">Our analytics ninja who can uncover insights from data faster than Sherlock Holmes!</div>
+            </article>
+            <div class="actions">
+              <a href="https://www.linkedin.com/in/moiduddinahmed-79a94923b" class="btn">
+                <span>connect</span>
+                <img class="icon" src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG8.png" alt="LinkedIn">
+              </a>
+              <a href="https://www.instagram.com/_moid_04_?igsh=NDYydDU2ZWNtMmNi" class="btn">
+                <span>follow</span>
+                <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="Instagram">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mt-4">
+          <div class="team-card">
+            <article>
+              <h2>Chetan</h2>
+              <div class="title">Development Lead</div>
+              
+              <div class="desc">Our coding trickster who can make code dance, sing, and do the Macarena (figuratively, of course)!</div>
+            </article>
+            <div class="actions">
+              <a href="https://www.linkedin.com/in/chetan-sirigiri" class="btn">
+                <span>connect</span>
+                <img class="icon" src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG8.png" alt="LinkedIn">
+              </a>
+              <a href="https://www.instagram.com/chetan.php?igsh=MW04ZWdteWZ3ZnF2aA==" class="btn">
+                <span>follow</span>
+                <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="Instagram">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mt-4">
+          <div class="team-card">
+            <article>
+              <h2>Shaibaz Ahmed</h2>
+              <div class="title">CP Lead</div>
+              
+              <div class="desc">Our coding mastermind who can write code so brilliantly that even Einstein would scratch his head and say, 'I didn't see that coming!'</div>
+            </article>
+            <div class="actions">
+              <a href="#" class="btn">
+                <span>connect</span>
+                <img class="icon" src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG8.png" alt="LinkedIn">
+              </a>
+              <a href="#" class="btn">
+                <span>follow</span>
+                <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="Instagram">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mt-4">
+          <div class="team-card">
+            <article>
+              <h2>Veda</h2>
+              <div class="title">Outreach Lead</div>
+             
+              <div class="desc">Our outreach lead who has a PhD in 'Convincology' and a black belt in 'Turning Nos into Yesses' a true Jedi of outreach.</div>
+            </article>
+            <div class="actions">
+              <a href="https://www.linkedin.com/in/veda-smn-376026277" class="btn">
+                <span>connect</span>
+                <img class="icon" src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG8.png" alt="LinkedIn">
+              </a>
+              <a href="https://www.instagram.com/vedanayin?igsh=ZmxiZXM2em94OG9s" class="btn">
+                <span>follow</span>
+                <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="Instagram">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mt-4">
+          <div class="team-card">
+            <article>
+              <h2>Hyder Ali</h2>
+              <div class="title">Technical Lead</div>
+              
+              <div class="desc">Our design prodigy who can turn blank canvases into visual masterpieces that will make your eyes pop!</div>
+            </article>
+            <div class="actions">
+              <a href="https://www.linkedin.com/in/shaik-hyder-ali-694765240/" class="btn">
+                <span>connect</span>
+                <img class="icon" src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG8.png" alt="LinkedIn">
+              </a>
+              <a href="https://www.instagram.com/shaik.exe?igsh=MWd6YWhoaWV0OTRkOA==" class="btn">
+                <span>follow</span>
+                <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="Instagram">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Founders Section -->
+  <main class="main">
+    <div class="container p-5">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="founder-title text-center">Founders</h1>
+        </div>
+        <div class="col-12 col-md-6 mt-4">
+          <section class="card-section">
+            <div class="card">
+              <div class="flip-card">
+                <div class="flip-card__container">
+                  <div class="card-front">
+                    <div class="card-front__tp card-front__tp--city">
+                      <h2 class="card-front__heading">Abhilash Movva</h2>
+                    </div>
+                    <div class="card-front__bt">
+                      <p class="card-front__text-view card-front__text-view--city">Where It All Began</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="inside-page">
+                <div class="inside-page__container d-flex flex-column justify-content-center">
+                  <p class="inside-page__text">
+                    "Dare to innovate and sweat for it! In the uncertain dance, hard work orchestrates unparalleled discoveries. Embrace risks-those relentless efforts fuel the fire of progress. Remember, the bravest Ideas flourish when pushed beyond comfort's edge."
+                  </p>
+                  <a href="https://www.linkedin.com/in/abhilashmovva">CONNECT</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="col-12 col-md-6 mt-4">
+          <section class="card-section">
+            <div class="card">
+              <div class="flip-card">
+                <div class="flip-card__container">
+                  <div class="card-front">
+                    <div class="card-front__tp card-front__tp--ski">
+                      <h2 class="card-front__heading">Charan Narakulla</h2>
+                    </div>
+                    <div class="card-front__bt">
+                      <p class="card-front__text-view card-front__text-view--ski">Take a Look</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="inside-page">
+                <div class="inside-page__container d-flex flex-column justify-content-center">
+                  <p class="inside-page__text">
+                    "Build bridges to greatness. Seek mentors as guiding lights along the path. With their support, connections knit a network stronger than steel cables, forming a family that transcends horizons."
+                  </p>
+                  <a href="https://www.linkedin.com/in/charan-narukulla">CONNECT</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="col-12 col-md-6 mt-4">
+          <section class="card-section">
+            <div class="card">
+              <div class="flip-card">
+                <div class="flip-card__container">
+                  <div class="card-front">
+                    <div class="card-front__tp card-front__tp--beach">
+                      <h2 class="card-front__heading">Mahindrakar Sourabh</h2>
+                    </div>
+                    <div class="card-front__bt">
+                      <p class="card-front__text-view card-front__text-view--beach">Peek Inside</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="inside-page">
+                <div class="inside-page__container d-flex flex-column justify-content-center">
+                  <p class="inside-page__text">
+                    "Let's redefine success by harmonizing ambition with adaptability. Embrace change as we reach for the stars, ensuring our journey remains not just sustainable but also flexible. Balance isn't static; it's the art of adapting to the winds of transformation."
+                  </p>
+                  <a href="https://www.linkedin.com/in/sourabh-mahindrakar-7459541b0">CONNECT</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="col-12 col-md-6 mt-4">
+          <section class="card-section">
+            <div class="card">
+              <div class="flip-card">
+                <div class="flip-card__container">
+                  <div class="card-front">
+                    <div class="card-front__tp card-front__tp--camping">
+                      <h2 class="card-front__heading">Manav Patel</h2>
+                    </div>
+                    <div class="card-front__bt">
+                      <p class="card-front__text-view card-front__text-view--camping">Founders Secret: Unlocked</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="inside-page">
+                <div class="inside-page__container d-flex flex-column justify-content-center">
+                  <p class="inside-page__text">
+                    "Always give your best. It's not just about what you accomplish but how you grow along the way. Your effort defines your journey to greatness."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 contact-section">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title reveal-text">Get In Touch</h2>
+        <div class="section-underline"></div>
+        <p class="section-subtitle">Ready to join our coding community? Let's connect!</p>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="contact-info">
+            <div class="contact-item slide-in-left">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h5>Location</h5>
+                <p>Hyderabad, India</p>
+              </div>
+            </div>
+            
+            <div class="contact-item slide-in-left">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h5>Email</h5>
+                <p>contact@codeoholics.com</p>
+              </div>
+            </div>
+            
+            <div class="contact-item slide-in-left">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h5>Phone</h5>
+                <p>+91 9876543210</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6">
+          <form class="contact-form slide-in-right">
+            <div class="form-group">
+              <input type="text" class="form-control animated-input" placeholder="Your Name" required>
+              <span class="input-highlight"></span>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control animated-input" placeholder="Your Email" required>
+              <span class="input-highlight"></span>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control animated-input" rows="4" placeholder="Your Message" required></textarea>
+              <span class="input-highlight"></span>
+            </div>
+            <button type="submit" class="btn-neon btn-submit">
+              <span>Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-section">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="brand-icon">&lt;/&gt;</span>
+          <span class="name">Codeoholics</span>
+        </div>
+        <div class="footer-social">
+          <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Codeoholics | All Rights Reserved | Made with ❤️ by developers, for developers</p>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
