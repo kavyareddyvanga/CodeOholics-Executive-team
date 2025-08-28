@@ -277,7 +277,11 @@
       color: #ffffff;
     }
 
-    
+     .cursor {
+      display: inline-block;
+      color: var(--primary-color);
+      animation: blink 1s infinite;
+    }
 
         .typing-text {
   display: inline-block;
